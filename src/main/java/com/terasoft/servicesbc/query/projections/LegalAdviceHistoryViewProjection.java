@@ -1,8 +1,9 @@
 package com.terasoft.servicesbc.query.projections;
 
-import com.terasoft.servicesbc.command.domain.enums.LawServiceState;
-import com.terasoft.servicesbc.contracts.events.LegalAdviceEdited;
-import com.terasoft.servicesbc.contracts.events.LegalAdviceRegistered;
+
+import com.terasoft.common.domain.enums.LawServiceState;
+import com.terasoft.servicesbccontracts.events.LegalAdviceEdited;
+import com.terasoft.servicesbccontracts.events.LegalAdviceRegistered;
 import org.axonframework.eventhandling.EventHandler;
 import org.axonframework.eventhandling.Timestamp;
 import org.springframework.stereotype.Component;

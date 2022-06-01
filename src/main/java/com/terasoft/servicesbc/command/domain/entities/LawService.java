@@ -1,6 +1,6 @@
 package com.terasoft.servicesbc.command.domain.entities;
 
-import com.terasoft.servicesbc.command.domain.enums.LawServiceState;
+import com.terasoft.common.domain.enums.LawServiceState;
 import lombok.Data;
 import org.axonframework.modelling.command.AggregateIdentifier;
 import org.axonframework.spring.stereotype.Aggregate;

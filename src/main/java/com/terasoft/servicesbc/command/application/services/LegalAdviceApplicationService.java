@@ -1,15 +1,16 @@
 package com.terasoft.servicesbc.command.application.services;
 
+
+import com.terasoft.common.application.Notification;
+import com.terasoft.common.application.Result;
+import com.terasoft.common.application.ResultType;
+import com.terasoft.common.domain.enums.LawServiceState;
 import com.terasoft.servicesbc.command.application.dtos.request.EditLegalAdviceRequest;
 import com.terasoft.servicesbc.command.application.dtos.request.RegisterLegalAdviceRequest;
 import com.terasoft.servicesbc.command.application.dtos.response.EditLegalAdviceResponse;
 import com.terasoft.servicesbc.command.application.dtos.response.RegisterLegalAdviceResponse;
 import com.terasoft.servicesbc.command.application.validators.EditLegalAdviceValidator;
 import com.terasoft.servicesbc.command.application.validators.RegisterLegalAdviceValidator;
-import com.terasoft.servicesbc.command.domain.enums.LawServiceState;
-import com.terasoft.servicesbc.common.application.Notification;
-import com.terasoft.servicesbc.common.application.Result;
-import com.terasoft.servicesbc.common.application.ResultType;
 import com.terasoft.servicesbc.contracts.commands.EditLegalAdvice;
 import com.terasoft.servicesbc.contracts.commands.RegisterLegalAdvice;
 import org.axonframework.commandhandling.gateway.CommandGateway;

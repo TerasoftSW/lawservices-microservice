@@ -1,11 +1,13 @@
 package com.terasoft.servicesbc.query.projections;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 @Entity
 public class LegalAdviceView {

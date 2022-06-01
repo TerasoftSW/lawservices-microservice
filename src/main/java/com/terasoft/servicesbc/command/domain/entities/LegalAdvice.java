@@ -1,14 +1,10 @@
 package com.terasoft.servicesbc.command.domain.entities;
 
-import com.terasoft.servicesbc.command.domain.enums.LawServiceState;
-import com.terasoft.servicesbc.contracts.commands.EditCustomLegalCase;
-import com.terasoft.servicesbc.contracts.commands.EditLegalAdvice;
-import com.terasoft.servicesbc.contracts.commands.RegisterCustomLegalCase;
-import com.terasoft.servicesbc.contracts.commands.RegisterLegalAdvice;
-import com.terasoft.servicesbc.contracts.events.CustomLegalCaseEdited;
-import com.terasoft.servicesbc.contracts.events.CustomLegalCaseRegistered;
-import com.terasoft.servicesbc.contracts.events.LegalAdviceEdited;
-import com.terasoft.servicesbc.contracts.events.LegalAdviceRegistered;
+import com.terasoft.common.domain.enums.LawServiceState;
+import com.terasoft.servicesbccontracts.commands.EditLegalAdvice;
+import com.terasoft.servicesbccontracts.commands.RegisterLegalAdvice;
+import com.terasoft.servicesbccontracts.events.LegalAdviceEdited;
+import com.terasoft.servicesbccontracts.events.LegalAdviceRegistered;
 import lombok.Data;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;

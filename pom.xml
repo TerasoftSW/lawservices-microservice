@@ -66,6 +66,16 @@
             <artifactId>axon-spring-boot-starter</artifactId>
             <version>${axon.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.terasoft</groupId>
+            <artifactId>Common</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.terasoft</groupId>
+            <artifactId>ServicesBC-contracts</artifactId>
+            <version>0.0.1</version>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>

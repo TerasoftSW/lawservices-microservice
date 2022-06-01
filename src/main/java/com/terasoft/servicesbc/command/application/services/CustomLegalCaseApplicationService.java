@@ -1,5 +1,10 @@
 package com.terasoft.servicesbc.command.application.services;
 
+import com.terasoft.common.application.Notification;
+import com.terasoft.common.application.Result;
+import com.terasoft.common.application.ResultType;
+import com.terasoft.common.domain.enums.LawServiceState;
+import com.terasoft.common.domain.enums.MeetType;
 import com.terasoft.servicesbc.command.application.dtos.request.EditCustomLegalCaseRequest;
 import com.terasoft.servicesbc.command.application.dtos.request.EditLegalAdviceRequest;
 import com.terasoft.servicesbc.command.application.dtos.request.RegisterCustomLegalCaseRequest;
@@ -10,11 +15,6 @@ import com.terasoft.servicesbc.command.application.dtos.response.RegisterCustomL
 import com.terasoft.servicesbc.command.application.dtos.response.RegisterLegalAdviceResponse;
 import com.terasoft.servicesbc.command.application.validators.EditCustomLegalCaseValidator;
 import com.terasoft.servicesbc.command.application.validators.RegisterCustomLegalCaseValidator;
-import com.terasoft.servicesbc.command.domain.enums.LawServiceState;
-import com.terasoft.servicesbc.command.domain.enums.MeetType;
-import com.terasoft.servicesbc.common.application.Notification;
-import com.terasoft.servicesbc.common.application.Result;
-import com.terasoft.servicesbc.common.application.ResultType;
 import com.terasoft.servicesbc.contracts.commands.EditCustomLegalCase;
 import com.terasoft.servicesbc.contracts.commands.RegisterCustomLegalCase;
 import org.axonframework.commandhandling.gateway.CommandGateway;

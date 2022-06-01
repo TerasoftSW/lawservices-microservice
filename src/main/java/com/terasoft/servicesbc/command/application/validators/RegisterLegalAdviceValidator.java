@@ -1,7 +1,7 @@
 package com.terasoft.servicesbc.command.application.validators;
 
+import com.terasoft.common.application.Notification;
 import com.terasoft.servicesbc.command.application.dtos.request.RegisterLegalAdviceRequest;
-import com.terasoft.servicesbc.common.application.Notification;
 import com.terasoft.servicesbc.query.projections.LegalAdviceViewRepository;
 import org.springframework.stereotype.Component;
 

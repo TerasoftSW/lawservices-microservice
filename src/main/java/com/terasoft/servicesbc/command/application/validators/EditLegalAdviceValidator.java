@@ -1,8 +1,8 @@
 package com.terasoft.servicesbc.command.application.validators;
 
+import com.terasoft.common.application.Notification;
 import com.terasoft.servicesbc.command.application.dtos.request.EditLegalAdviceRequest;
 import com.terasoft.servicesbc.command.domain.entities.LegalAdvice;
-import com.terasoft.servicesbc.common.application.Notification;
 import org.axonframework.messaging.unitofwork.DefaultUnitOfWork;
 import org.axonframework.messaging.unitofwork.UnitOfWork;
 import org.axonframework.modelling.command.AggregateNotFoundException;

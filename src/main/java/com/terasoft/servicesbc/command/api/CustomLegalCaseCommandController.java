@@ -1,13 +1,13 @@
 package com.terasoft.servicesbc.command.api;
 
+import com.terasoft.common.api.ApiController;
+import com.terasoft.common.application.Notification;
+import com.terasoft.common.application.Result;
 import com.terasoft.servicesbc.command.application.dtos.request.EditCustomLegalCaseRequest;
 import com.terasoft.servicesbc.command.application.dtos.request.RegisterCustomLegalCaseRequest;
 import com.terasoft.servicesbc.command.application.dtos.response.EditCustomLegalCaseResponse;
 import com.terasoft.servicesbc.command.application.dtos.response.RegisterCustomLegalCaseResponse;
 import com.terasoft.servicesbc.command.application.services.CustomLegalCaseApplicationService;
-import com.terasoft.servicesbc.common.api.ApiController;
-import com.terasoft.servicesbc.common.application.Notification;
-import com.terasoft.servicesbc.common.application.Result;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.axonframework.commandhandling.gateway.CommandGateway;
