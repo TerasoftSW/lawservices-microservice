@@ -11,8 +11,8 @@ import com.terasoft.servicesbc.command.application.dtos.response.EditLegalAdvice
 import com.terasoft.servicesbc.command.application.dtos.response.RegisterLegalAdviceResponse;
 import com.terasoft.servicesbc.command.application.validators.EditLegalAdviceValidator;
 import com.terasoft.servicesbc.command.application.validators.RegisterLegalAdviceValidator;
-import com.terasoft.servicesbc.contracts.commands.EditLegalAdvice;
-import com.terasoft.servicesbc.contracts.commands.RegisterLegalAdvice;
+import com.terasoft.servicesbccontracts.commands.EditLegalAdvice;
+import com.terasoft.servicesbccontracts.commands.RegisterLegalAdvice;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.stereotype.Component;
 

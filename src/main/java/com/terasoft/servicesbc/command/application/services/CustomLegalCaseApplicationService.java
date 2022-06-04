@@ -15,8 +15,8 @@ import com.terasoft.servicesbc.command.application.dtos.response.RegisterCustomL
 import com.terasoft.servicesbc.command.application.dtos.response.RegisterLegalAdviceResponse;
 import com.terasoft.servicesbc.command.application.validators.EditCustomLegalCaseValidator;
 import com.terasoft.servicesbc.command.application.validators.RegisterCustomLegalCaseValidator;
-import com.terasoft.servicesbc.contracts.commands.EditCustomLegalCase;
-import com.terasoft.servicesbc.contracts.commands.RegisterCustomLegalCase;
+import com.terasoft.servicesbccontracts.commands.EditCustomLegalCase;
+import com.terasoft.servicesbccontracts.commands.RegisterCustomLegalCase;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.stereotype.Component;
 

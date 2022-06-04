@@ -1,7 +1,7 @@
 package com.terasoft.servicesbc.command.application.handlers;
 
-import com.terasoft.servicesbc.contracts.events.CustomLegalCaseEdited;
-import com.terasoft.servicesbc.contracts.events.CustomLegalCaseRegistered;
+import com.terasoft.servicesbccontracts.events.CustomLegalCaseEdited;
+import com.terasoft.servicesbccontracts.events.CustomLegalCaseRegistered;
 import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;
 import org.springframework.stereotype.Component;
