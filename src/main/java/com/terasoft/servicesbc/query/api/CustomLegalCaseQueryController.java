@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/customLegalCases")
+@RequestMapping("/services/customLegalCases")
 @Tag(name = "Custom Legal Cases")
 public class CustomLegalCaseQueryController {
     private final CustomLegalCaseViewRepository customLegalCaseViewRepository;

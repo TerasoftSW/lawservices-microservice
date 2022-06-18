@@ -17,7 +17,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/customLegalCases")
+@RequestMapping("/services/customLegalCases")
 @Tag(name = "Custom Legal Cases")
 public class CustomLegalCaseCommandController {
     private final CustomLegalCaseApplicationService customLegalCaseApplicationService;

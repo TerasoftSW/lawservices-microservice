@@ -17,7 +17,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/legalAdvices")
+@RequestMapping("/services/legalAdvices")
 @Tag(name = "Legal Advices")
 public class LegalAdviceCommandController {
     private final LegalAdviceApplicationService  legalAdviceApplicationService;

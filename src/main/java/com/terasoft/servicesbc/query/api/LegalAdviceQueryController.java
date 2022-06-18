@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/legalAdvices")
+@RequestMapping("/services/legalAdvices")
 @Tag(name = "Legal Advices")
 public class LegalAdviceQueryController {
     private final LegalAdviceViewRepository legalAdviceViewRepository;
